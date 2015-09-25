@@ -1,0 +1,34 @@
+/* element selector */
+
+/* tag selector */
+h1 {
+  color: red;
+}
+
+/* id selector */
+#first_item {
+  color: green;
+}
+
+/* class selector */
+.dates {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* child selector */
+.child > li {
+  color: pink;
+}
+
+/* descendant selector */
+section blockquote {
+  background-color: gray;
+}
+
+/* font */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
